@@ -1,5 +1,7 @@
 # Phone Information Utility
 
+![Phone Info Tool Screenshot](img/img.jpg)
+
 A Python utility for retrieving detailed information about phone numbers using phonenumbers library and IP Quality Score API.
 
 ## Features
@@ -17,6 +19,7 @@ A Python utility for retrieving detailed information about phone numbers using p
 - Required packages:
   - phonenumbers
   - requests
+  - colorama (for the hacker UI)
 
 ## Installation
 
@@ -28,7 +31,7 @@ A Python utility for retrieving detailed information about phone numbers using p
 
 2. Install required packages:
    ```
-   pip install phonenumbers requests
+   pip install phonenumbers requests colorama
    ```
 
 3. Set up your IP Quality Score API key:
@@ -45,6 +48,8 @@ python main.py
 1. Enter a phone number in international format (e.g., +12125552368)
 2. Review the detailed information about the phone number
 3. Choose whether to save the data to a CSV file
+
+![Tool Interface](img/img.jpg)
 
 ## Data Points
 
